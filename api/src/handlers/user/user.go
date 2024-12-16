@@ -3,7 +3,6 @@ package userHandler
 import (
 	"fmt"
 	"strconv"
-
 	"github.com/PrashanthSai-K/GitPortal/api/database"
 	"github.com/PrashanthSai-K/GitPortal/api/src/model"
 	"github.com/gofiber/fiber/v2"

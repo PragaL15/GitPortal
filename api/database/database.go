@@ -11,7 +11,6 @@ import (
 
 var DB *gorm.DB
 
-// ConnectDatabase establishes a connection to the PostgreSQL database.
 func ConnectDatabase() {
 
 	host := config.Config("DB_HOST")

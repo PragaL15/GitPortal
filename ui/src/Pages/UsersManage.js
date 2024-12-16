@@ -3,13 +3,10 @@ import TopBar from '../components/AdminTopbar'
 import Sidebar from '../components/AdminSidebar'
 import UserTable from '../components/UserManagement'
 import axios from 'axios'
-import  toast from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 
 function UsersManage() {
-
-    // const toast = useRef(null);
-
     const [users, setUsers] = useState([]);
 
     const fetchUsers = async () => {
